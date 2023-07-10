@@ -6,11 +6,11 @@
 
 # 3. Table
 # > exclude = NULL covers the <NA>s
-	table(${1:list}, exclude=NULL)            # 1 variable
-	table(${1:list}, ${2:list}, exclude=NULL) # 2x2
+  table(${1:list}, exclude=NULL)            # 1 variable
+  table(${1:list}, ${2:list}, exclude=NULL) # 2x2
 
 # 4. Tables with proportions
-	prop.table(table(${1:list}, exclude=NULL))            # 1 variable
+  prop.table(table(${1:list}, exclude=NULL))            # 1 variable
   prop.table(table(${1:list}, ${2:list}, exclude=NULL)) # 2x2
 	
 # 5. Is.na()
