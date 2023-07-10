@@ -14,15 +14,15 @@
   prop.table(table(${1:list}, ${2:list}, exclude=NULL)) # 2x2
 	
 # 5. Is.na()
-	is.na(${1:list})
+  is.na(${1:list})
 	
 # 6. Sequences
-	seq(${1:list}, ${2:list}, by=${3:list})
+  seq(${1:list}, ${2:list}, by=${3:list})
 
 # 7. Write datasets into .csv (receives datasets in data.frames)
-  write.csv(${1:dflist}, file = "Downloads/list.csv", row.names = FALSE)
+  write.csv(${1:dflist}, file = "filename.csv", row.names = FALSE)
   
 # 8. Write datasets into .rds (receives datasets in tibble/data.frames)
-  saveRDS(${1:dflist}, file = "Downloads/list.csv", row.names = FALSE))
+  saveRDS(${1:dflist}, file = "filename.csv", row.names = FALSE))
 
-# Last updated: 28 Nov 2022
+# Last updated: 11 July 2023
