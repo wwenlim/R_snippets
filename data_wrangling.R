@@ -3,6 +3,7 @@
   
 # 2. Useful packages
   library(tidyverse) # data wrangling + ggplot universe
+  library(Cairo) # exporting pdf figures in MacOS
 
 # 3. Table
 # > exclude = NULL covers the <NA>s
@@ -25,4 +26,4 @@
 # 8. Write datasets into .rds (receives datasets in tibble/data.frames)
   saveRDS(${1:dflist}, file = "filename.csv", row.names = FALSE))
 
-# Last updated: 11 July 2023
+# Last updated: 17 Nov 2023
