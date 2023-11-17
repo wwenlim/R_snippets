@@ -8,9 +8,10 @@
 	par(mfrow=c(1,1)) 
   
 # 4. Plot margins
-	par(mar=c(5,5,3,1))
+	par(mar=c(5,5,3,1)) # Bottom, Left, Top, Right
   	
 # 5. Output graphics in .pdf for Mac
-	library(Cairo) 
+	library(Cairo)
+	pdf(width = Xininches, height = Yininches, file = "fig1.pdf")
   
-# Last updated: 28 Nov 2022
+# Last updated: 17 Nov 2023
